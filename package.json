@@ -1,14 +1,14 @@
 {
   "name": "netuno-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --declaration"
   },
   "keywords": [],
   "author": "",
