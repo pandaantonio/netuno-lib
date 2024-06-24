@@ -18,7 +18,7 @@ import EmbedColors from "./Message/EmbedColors";
 import getEmoji from "./Utilities/getEmoji";
 import GifAPI from "./Utilities/GifAPI";
 
-export default {
+const data = {
     getEmoji, GifAPI,
     EmbedBuilder,
     EmbedColors,
@@ -38,3 +38,5 @@ export default {
     SubCommandOptionBuilder,
     UserOptionBuilder,
 };
+
+export default data;
